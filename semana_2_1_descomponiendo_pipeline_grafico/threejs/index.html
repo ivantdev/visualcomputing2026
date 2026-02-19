@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema 7 – Iluminación Clásica en Tiempo Real</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="info">
+      <h2>Tema 7 · Iluminación Clásica en Tiempo Real</h2>
+      <p>Lambert &nbsp;|&nbsp; Phong &nbsp;|&nbsp; Blinn-Phong</p>
+      <p class="hint">Arrastra para orbitar · Rueda para zoom · Panel derecho para parámetros</p>
+    </div>
+
+    <div id="labels">
+      <div class="label" id="lbl-lambert">Lambert<br><span>solo difuso</span></div>
+      <div class="label" id="lbl-phong">Phong<br><span>difuso + especular</span></div>
+      <div class="label" id="lbl-blinn">Blinn-Phong<br><span>vector halfway H</span></div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
