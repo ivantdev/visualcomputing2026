@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f1a;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Heads-up display overlay */
+.hud {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: #e0e0ff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.75rem 1.1rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+}
+
+.hud h2 {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: #a29bfe;
+  letter-spacing: 0.04em;
+}

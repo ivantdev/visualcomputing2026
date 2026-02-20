@@ -1,0 +1,9 @@
+# media/
+
+Place screenshots and GIF recordings of the running scene here.
+
+Required files (referenced in README.md):
+- screenshot_01.png  — full scene view with 3-level hierarchy
+- screenshot_02.png  — parent rotation propagated to children
+- screenshot_03.png  — Leva control panel
+- animation.gif      — animated demo of orbits and rotations

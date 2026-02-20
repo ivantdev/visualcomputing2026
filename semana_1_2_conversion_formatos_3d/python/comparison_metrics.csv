@@ -1,0 +1,4 @@
+file_name,format,vertices,faces,edges_unique,vertex_normals,face_normals,duplicate_vertices,duplicate_ratio,watertight,has_uv,bbox_x,bbox_y,bbox_z,surface_area,o3d_vertices,o3d_faces,o3d_has_vertex_normals,assimp_info
+ship_in_a_bottle.glb,GLB,44964,53462,95197,44964,53462,19012,0.422827,False,True,1.3973654222933618,2.1362502704444375,3.35409870926913,46.30952452019849,,,,
+ship_in_a_bottle.obj,OBJ,44964,53462,95197,44964,53462,19009,0.42276,False,True,1.39736542,2.1362502699999997,3.35409871,46.30952451813862,,,,
+ship_in_a_bottle.stl,STL,160386,53462,160386,160386,53462,134431,0.838172,False,False,1.3973654508590698,2.1362502574920654,3.3540987968444824,46.30952461776264,,,,
