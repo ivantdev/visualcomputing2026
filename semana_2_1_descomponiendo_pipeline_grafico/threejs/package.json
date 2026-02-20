@@ -1,0 +1,17 @@
+{
+  "name": "shading-demo",
+  "version": "1.0.0",
+  "description": "Tema 7: Iluminación Clásica en Tiempo Real – Lambert, Phong, Blinn-Phong",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.170.0",
+    "lil-gui": "^0.19.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

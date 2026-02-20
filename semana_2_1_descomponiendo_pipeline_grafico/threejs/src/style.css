@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0a0a12;
+  overflow: hidden;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #e0e0f0;
+}
+
+#canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ── Info banner ─────────────────────────────────────────── */
+#info {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(10, 10, 20, 0.72);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 12px 24px;
+  pointer-events: none;
+  backdrop-filter: blur(6px);
+}
+
+#info h2 { font-size: 1.1rem; font-weight: 600; letter-spacing: 0.04em; }
+#info p  { font-size: 0.78rem; color: #9090b0; margin-top: 4px; }
+#info .hint { font-size: 0.68rem; color: #606080; }
+
+/* ── Model labels ────────────────────────────────────────── */
+#labels {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  pointer-events: none;
+}
+
+.label {
+  text-align: center;
+  background: rgba(10, 10, 20, 0.70);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(4px);
+}
+
+.label span {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: #8080a0;
+  margin-top: 2px;
+}
+
+/* ── lil-gui overrides ───────────────────────────────────── */
+.lil-gui {
+  --background-color: rgba(10, 10, 22, 0.88) !important;
+  --widget-color: #1e1e30 !important;
+  --hover-color: #2a2a44 !important;
+  --focus-color: #4a4aaa !important;
+  --number-color: #7ec8e3 !important;
+  --string-color: #a8e6cf !important;
+}
